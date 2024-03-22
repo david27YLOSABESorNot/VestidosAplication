@@ -24,11 +24,13 @@ export const SectionAuth = () => {
         <ul className="data-user">
             <div className="iconContain">
                 <p className="iconInitial">{user ? user : ''}</p>   
-                <img src="./public/icons/iconoCar.png" alt="imagen carrito" />   
+            
             </div>
 
 
-            { logueado ? null :
+            { logueado ? (
+                    <img className="img-car" src="./public/icons/iconoCar.png" alt="imagen carrito" /> 
+            ) :
               
               (
                 <>

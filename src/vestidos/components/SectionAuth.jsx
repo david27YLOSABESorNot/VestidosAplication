@@ -29,7 +29,7 @@ export const SectionAuth = () => {
 
 
             { logueado ? (
-                    <img className="img-car" src="./public/icons/iconoCar.png" alt="imagen carrito" /> 
+                    <img className="img-car" src="/icons/iconoCar.png" alt="imagen carrito" /> 
             ) :
               
               (

@@ -11,7 +11,7 @@ export const NavBarMobile = ({active, setActive}) => {
 
       <img 
         className={`iconClose`}
-        src="./public/icons/closeIcon.png" 
+        src="/icons/closeIcon.png" 
         alt="icono cerrar" 
         onClick={() => setActive(false)}
       />

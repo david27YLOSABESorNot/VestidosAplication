@@ -31,6 +31,8 @@ img{
 .logo{
     font-weight: bold;
     color: white;
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 .navegation-global{
@@ -100,7 +102,7 @@ a{
 
 
 .icon-menu{
-    width: 6rem;
+    width: 4rem;
     cursor: pointer;
 }
 
@@ -187,7 +189,7 @@ a{
     top: 35%;
     bottom: 50%;
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     z-index: 5;
     max-width: 50rem;
     text-transform: uppercase;
@@ -286,7 +288,7 @@ a{
 .contain-targets{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
+    gap: 1.5rem;
     padding: 5rem 0;
 
 }
@@ -297,7 +299,7 @@ a{
     
 }
 .target-dress-contain img{
-    height: 30rem;
+    height: 23rem;
     object-fit: cover;
     background-attachment: fixed;
     border-top-left-radius: 1rem;
@@ -305,7 +307,7 @@ a{
 }
 .title-target-dress{
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .contain-info-target{
@@ -329,7 +331,7 @@ a{
 }
 
 .price{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
     font-weight: bold;;
 }
@@ -351,7 +353,7 @@ a{
 
 .contain-single-dress img{
     width: 80%;
-    height: 70rem;
+    height: 60rem;
     object-fit: cover;
 
 }
@@ -407,12 +409,15 @@ a{
     font-size: 2.5rem;
 }
 .text-info{
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
+.price-dress{
+    font-size: 2rem;
+}
 .price-dress span{
     color: rgb(32, 80, 32);
-
+   
     font-weight:  bold;
 }
 
@@ -530,6 +535,9 @@ a{
     width: 4rem;
     cursor: pointer;
 }
+.adjust-formats-dress{
+    padding-bottom: 8rem;
+}
 
 
 
@@ -540,6 +548,22 @@ a{
         top: 40%;
     }
 
+    .contain-targets{
+        padding: 3rem;
+    }
+
+    .text-info{
+        font-size: 2rem;
+    }
+
+    .price{
+        font-size: 1.5rem;
+    }
+
+
+    .icon-menu{
+        width: 6rem;
+    }
     
     .contain-single-dress div{
         width: 50%;
@@ -548,6 +572,17 @@ a{
         width: 50%;
     }
 
+    .target-dress-contain img{
+        height: 30rem;
+    }
+
+    .title-target-dress{
+        font-size: 2.5rem;
+    }
+
+    .price-dress{
+        font-size: 2.5rem;
+    }
 
 
     .contain-single-dress{
@@ -560,6 +595,10 @@ a{
 
     .contain-targets{
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .logo{
+        font-size: 2.5rem;
     }
 
 

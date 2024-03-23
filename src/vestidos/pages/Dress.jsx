@@ -13,7 +13,7 @@ export const Dress = () => {
 
 
     return (
-        <div className="contain adjust-formats">
+        <div className="contain adjust-formats adjust-formats-dress">
             <div className="contain-single-dress animate__animated animate__fadeIn">
                 <img src={`/public/imagesProducts/${dress.id}.webp`} alt={dress.name} />
 

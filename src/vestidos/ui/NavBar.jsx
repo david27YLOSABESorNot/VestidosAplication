@@ -42,7 +42,7 @@ export const NavBar = () => {
 
             <div className="icon-menu">
                 <img
-                    src='././././public/icons/icons8-menu.svg'
+                    src='/icons/icons8-menu.svg'
                     alt="icono de menu" 
                     onClick={activateMenu}
                     

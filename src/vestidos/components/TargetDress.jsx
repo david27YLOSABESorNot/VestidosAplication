@@ -6,7 +6,7 @@ export const TargetDress = ({id, name, designer, price, type, description}) => {
 
     
     //Se cren las rutas para las imagenes
-    const urlImage = `/imagesProducts/${id}.webp`;
+    const urlImage = `/imagesProducts/${id}.avif`;
     const priceFormat = currencyFormatter({currency: 'MXN'}, price);
 
 
